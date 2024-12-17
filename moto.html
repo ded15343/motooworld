@@ -1,0 +1,411 @@
+
+   		<img src=" фон.png">
+<header>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мотоциклы на продажу</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .model-card {
+            display: flex;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: white;
+        }
+        .model-card img {
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .model-card h3 {
+            margin: 0;
+        }
+        .model-card p {
+            margin: 5px 0;
+        }
+        .model-card .price {
+            color: #e74c3c;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Мотоциклы на продажу</h1>
+    <p>Лучшие мотоциклы для любых условий</p>
+</header>
+
+<nav>
+    <a href="#home">Главная</a>
+    <a href="#catalog">Каталог</a>
+    <a href="#about">О компании</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="container">
+    <section id="home" class="section">
+        <h2>Добро пожаловать!</h2>
+        <p>Мы продаем высококачественные мотоциклы для любых нужд — от спортивных до туристических моделей. Ознакомьтесь с нашим каталогом и найдите свой идеальный мотоцикл!</p>
+    </section>
+
+    <section id="catalog" class="section">
+        <h2>Наши Модели</h2>
+
+        <!-- Карточка мотоцикла 1 -->
+        <div class="model-card">
+            <img src="moto1.png"/600x600" IMG SRC="moto1.png" width="400" alt="Мотоцикл 1">
+            <div>
+                <h3>Yamaha YZF-R1</h3>
+                <p>Спортивный мотоцикл с мощным двигателем и отличной управляемостью.</p>
+                <p class="price">Цена: 700 000 ₽</p>
+            </div>
+        </div>
+
+        <!-- Карточка мотоцикла 2 -->
+        <div class="model-card">
+            <img src="moto2.png"/200x150" alt="Мотоцикл 2">
+            <div>
+                <h3>Honda CRF450R</h3>
+                <p>Кроссовый мотоцикл для любителей экстремальной езды по пересеченной местности.</p>
+                <p class="price">Цена: 500 000 ₽</p>
+            </div>
+        </div>
+
+        <!-- Карточка мотоцикла 3 -->
+        <div class="model-card">
+            <img src="moto3.png" alt="Мотоцикл 3">
+            <div>
+                <h3>BMW R1250 GS</h3>
+                <p>Туристический мотоцикл с отличной проходимостью и комфортом для долгих поездок.</p>
+                <p class="price">Цена: 1 200 000 ₽</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>О компании</h2>
+        <p>Мы занимаемся продажей мотоциклов более 10 лет. Наша цель — предоставить покупателям надежные и качественные мотоциклы, а также сервис на высшем уровне. У нас вы найдете как новые, так и подержанные модели с гарантией качества.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Контакты</h2>
+        <p><strong>Телефон:</strong> +7 (123) 456-78-90</p>
+        <p><strong>Email:</strong> info@motocycle-shop.ru</p>
+        <p><strong>Адрес:</strong> г. Москва, ул. Мотоциклистов, д. 1</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Мотоциклы на продажу. Все права защищены.</p>
+</footer>
+
+
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Блог о продаже мотоциклов</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ссылка на файл CSS для стилей -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .post {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .post h2 {
+            font-size: 24px;
+            color: #333;
+        }
+        .post p {
+            font-size: 16px;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Блог компании по продаже мотоциклов</h1>
+</header>
+
+<nav>
+    <a href="#">Главная</a>
+    <a href="#">О нас</a>
+    <a href="#">Каталог мотоциклов</a>
+    <a href="#">Контакты</a>
+</nav>
+
+<div class="container">
+    <div class="post">
+        <h2>Добро пожаловать в наш магазин мотоциклов!</h2>
+        <p>Мы рады представить вам наш магазин, где вы найдете широкий выбор мотоциклов для различных нужд. Независимо от того, ищете ли вы городской байк, спортивный мотоцикл или внедорожник, у нас есть все, что вам нужно!</p>
+    </div>
+
+    <div class="post">
+        <h2>Почему стоит выбрать нас?</h2>
+        <p>Мы предлагаем не только широкий ассортимент мотоциклов, но и полный сервис: от консультаций по выбору до последующего обслуживания. Мы сотрудничаем с ведущими брендами, гарантируя высокое качество и надежность каждой модели.</p>
+    </div>
+
+    <div class="post">
+        <h2>Наши мотоциклы</h2>
+        <p>Наши мотоциклы подойдут для любого уровня навыков: от новичков до опытных райдеров. Мы предлагаем мотоциклы различных категорий: для города, для путешествий и для экстремальных условий. Каждая модель проходит тщательную проверку качества, что делает их надежными и безопасными.</p>
+    </div>
+
+    <div class="post">
+        <h2>Советы по выбору мотоцикла</h2>
+        <p>При выборе мотоцикла важно учитывать несколько факторов: ваш опыт вождения, тип местности, по которой вы будете ездить, а также ваши личные предпочтения. Наши специалисты всегда готовы помочь вам выбрать оптимальную модель, которая будет соответствовать всем вашим требованиям.</p>
+    </div>
+
+    <div class="post">
+        <h2>Как ухаживать за мотоциклом?</h2>
+        <p>Регулярное техническое обслуживание мотоцикла — это залог его долговечности и безопасности. В нашем блоге мы делимся полезными советами по уходу за байком, чтобы он служил вам долго и без проблем. Мы также предлагаем услуги по обслуживанию и ремонту всех моделей, которые продаем.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Магазин мотоциклов "MotoWorld". Все права защищены.</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>О компании - MotoWorld</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .about-section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .about-section h2 {
+            font-size: 28px;
+            color: #333;
+        }
+        .about-section p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .about-section img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .services, .contact-info {
+            margin-top: 40px;
+        }
+        .services ul, .contact-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li, .contact-info li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MotoWorld - О компании</h1>
+</header>
+
+<nav>
+    <a href="#">Главная</a>
+    <a href="#">О нас</a>
+    <a href="#">Каталог</a>
+    <a href="#">Контакты</a>
+</nav>
+
+<div class="container">
+    <div class="about-section">
+        <h2>О компании MotoWorld</h2>
+        <p>Компания MotoWorld была основана в 2010 году с целью предоставить качественные мотоциклы и аксессуары любителям езды по всему миру. Мы предлагаем широкий ассортимент новых и подержанных мотоциклов, а также запчасти и экипировку для байкеров всех уровней.</p>
+
+        <p>Мы гордимся тем, что сотрудничаем с лучшими мировыми брендами, такими как Honda, Yamaha, Suzuki, Kawasaki и другими. Мы стремимся обеспечить наших клиентов не только качественным продуктом, но и высоким уровнем обслуживания.</p>
+        
+        <img src="salon.png" alt="Мотоциклы MotoWorld">
+    </div>
+
+    <div class="services">
+        <0     
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Определение браузера</title>
+    <style>
+        .ie { color: red; }
+        .firefox { color: blue; }
+        .chrome { color: green; }
+    </style>
+</head>
+<body>
+
+    <div id="browser-message">Текст будет изменён в зависимости от вашего браузера.</div>
+
+    <script>
+        function detectBrowser() {
+            const userAgent = navigator.userAgent;
+
+            if (userAgent.indexOf('MSIE') !== -1 || userAgent.indexOf('Trident') !== -1) {
+                document.getElementById('browser-message').classList.add('ie');
+            } else if (userAgent.indexOf('Firefox') !== -1) {
+                document.getElementById('browser-message').classList.add('firefox');
+            } else if (userAgent.indexOf('Chrome') !== -1 && userAgent.indexOf('Safari') !== -1) {
+                document.getElementById('browser-message').classList.add('chrome');
+            }
+        }
+
+        detectBrowser();
+    </script>
+
+</body>
+</html>                                                                                                                                                                                                                                                                                  
